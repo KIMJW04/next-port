@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css");
+@import url("https://websfont.github.io/gmarket/gmarket.css");
+@import url("https://websfont.github.io/websfont/websfont.css");
+
+@font-face {
+  font-family: "Freesentation";
+  src: url("../font/Freesentation-1Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation";
+  src: url("../font/Freesentation-2ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation";
+  src: url("../font/Freesentation-3Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation";
+  src: url("../font/Freesentation-4Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation";
+  src: url("../font/Freesentation-5Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation";
+  src: url("../font/Freesentation-6SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation";
+  src: url("../font/Freesentation-7Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation";
+  src: url("../font/Freesentation-8ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.mont {
+  font-family: "Montserrat";
+}
+.nanum {
+  font-family: "nanumSquareNeo";
+}
+.gmarket {
+  font-family: "gmarket";
+}
