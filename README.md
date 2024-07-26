@@ -1,21 +1,78 @@
-## 기본 설치
-```
-npx create-next-app@latest .
-Need to install the following packages:
-create-next-app@14.2.4
-Ok to proceed? (y) y
-✔ Would you like to use TypeScript? … No
-✔ Would you like to use ESLint? … Yes
-✔ Would you like to use Tailwind CSS? … Yes
-✔ Would you like to use `src/` directory? … Yes
-✔ Would you like to use App Router? (recommended) … Yes
-✔ Would you like to customize the default import alias (@/*)? … Yes
-✔ What import alias would you like configured? … @/*
-```
+# Next.js 포트폴리오 사이트
 
-## 라이브러리
-```
-npm i gsap
-npm i sass
-npm i lenis  /  npm install @studio-freight/lenis
-```
+이 프로젝트는 Next.js를 사용하여 만든 포트폴리오 사이트입니다. 이 사이트는 React와 Next.js의 최신 기능을 활용하여 인터랙티브한 사용자 경험을 제공합니다.
+
+## 프로젝트 구성
+
+- **Next.js**: React 기반의 프레임워크로 서버 사이드 렌더링(SSR) 및 정적 사이트 생성(SSG)을 지원합니다.
+- **GSAP**: 고급 애니메이션 라이브러리로 사용자 인터페이스의 애니메이션 효과를 추가합니다.
+- **Lenis**: 부드러운 스크롤을 제공하는 스크롤 라이브러리입니다.
+- **Sass**: CSS 전처리기로 스타일을 더 간편하게 작성할 수 있습니다.
+
+## 설치 및 실행
+
+이 프로젝트를 로컬 환경에서 실행하려면 아래의 단계를 따라 주세요.
+
+1. **리포지토리 클론**:
+
+   ```bash
+   git clone https://github.com/username/repository.git
+   cd repository
+   ```
+
+2. **의존성 설치**:
+
+   ```bash
+   npm install
+   ```
+
+3. **개발 서버 시작**:
+
+   ```bash
+   npm run dev
+   ```
+
+   브라우저에서 [http://localhost:3000](http://localhost:3000)으로 이동하여 개발 서버에서 실행 중인 애플리케이션을 확인할 수 있습니다.
+
+4. **프로덕션 빌드**:
+
+   ```bash
+   npm run build
+   ```
+
+   빌드가 완료되면, 아래 명령어로 프로덕션 서버를 시작할 수 있습니다.
+
+   ```bash
+   npm run start
+   ```
+
+## 스크립트 설명
+
+- **`npm run dev`**: 개발 모드로 애플리케이션을 실행합니다.
+- **`npm run build`**: 애플리케이션을 프로덕션 모드로 빌드합니다.
+- **`npm run start`**: 빌드된 애플리케이션을 프로덕션 모드로 실행합니다.
+- **`npm run lint`**: ESLint를 사용하여 코드 스타일과 오류를 검사합니다.
+
+## 의존성
+
+### 주요 의존성
+
+- **`@studio-freight/lenis`**: 부드러운 스크롤을 위한 라이브러리입니다.
+- **`gsap`**: 고급 애니메이션 효과를 위한 라이브러리입니다.
+- **`lenis`**: 부드러운 스크롤 및 인터랙션을 위한 라이브러리입니다.
+- **`next`**: 서버 사이드 렌더링과 정적 사이트 생성을 지원하는 React 프레임워크입니다.
+- **`react`**: 사용자 인터페이스 구축을 위한 라이브러리입니다.
+- **`react-dom`**: React의 DOM 관련 기능을 제공하는 라이브러리입니다.
+- **`sass`**: CSS 전처리기입니다.
+
+### 개발 의존성
+
+- **`eslint`**: 코드 품질과 스타일을 검토하는 도구입니다.
+- **`eslint-config-next`**: Next.js 프로젝트에 적합한 ESLint 설정을 제공합니다.
+
+## 프로젝트 구조
+
+- **`pages/`**: Next.js의 페이지 구성 요소가 위치합니다.
+- **`components/`**: 재사용 가능한 React 컴포넌트가 위치합니다.
+- **`styles/`**: Sass 스타일 시트가 위치합니다.
+- **`public/`**: 정적 파일이 위치합니다.
